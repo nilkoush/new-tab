@@ -18,7 +18,7 @@ const TimeWidget: FC<TimeWidgetProps> = ({ children }) => {
 	};
 
 	const getGreeting = () => {
-		const hours = Number(time.slice(0, 1));
+		const hours = Number(time.slice(0, 2));
 		if (hours < 6) {
 			return 'Good night.';
 		} else if (hours < 12) {
