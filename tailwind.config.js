@@ -4,11 +4,6 @@ module.exports = {
 		'./src/pages/**/*.{js,ts,jsx,tsx}',
 		'./src/components/**/*.{js,ts,jsx,tsx}',
 	],
-	safelist: [
-		{
-			pattern: /bg/,
-		},
-	],
 	theme: {
 		container: {
 			center: true,
@@ -22,6 +17,9 @@ module.exports = {
 			},
 		},
 		extend: {
+			fontFamily: {
+				sans: ['var(--font-plus-jakarta-sans)']
+			},
 			colors: {
 				'dark-gray': '#212121',
 				'light-gray': '#DBDBDB',

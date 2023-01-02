@@ -1,11 +1,17 @@
 import Bookmark from '@components/bookmark';
 import TimeWidget from '@components/time-widget';
 import WeatherWidget from '@components/weatger-widget';
+import { Plus_Jakarta_Sans } from '@next/font/google';
 import { Parameters } from '@types';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect, useRef, useState } from 'react';
 import { BiSearchAlt2 } from 'react-icons/bi';
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+	variable: '--font-plus-jakarta-sans',
+	weight: ['300', '600'],
+});
 
 export default function HomePage() {
 	const router = useRouter();
@@ -78,7 +84,7 @@ export default function HomePage() {
 				/>
 			</Head>
 			<div
-				className={`bg-cover bg-center bg-no-repeat`}
+				className={`${plusJakartaSans.variable} bg-cover bg-center bg-no-repeat font-sans`}
 				style={{ background: background }}
 			>
 				<div className="backdrop-brightness-[15%]">
