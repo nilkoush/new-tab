@@ -11,6 +11,7 @@ import { BiSearchAlt2 } from 'react-icons/bi';
 const plusJakartaSans = Plus_Jakarta_Sans({
 	variable: '--font-plus-jakarta-sans',
 	weight: ['300', '600'],
+	subsets: ['latin'],
 });
 
 export default function HomePage() {
