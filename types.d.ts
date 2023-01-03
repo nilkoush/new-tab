@@ -1,7 +1,7 @@
 export interface Parameters {
 	name?: string;
 	temperatureUnit?: 'C' | 'F';
-	background?: string;
+	backgroundImage?: string;
 	countryCode?: string;
 }
 

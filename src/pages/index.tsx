@@ -20,23 +20,17 @@ export default function HomePage() {
 
 	const searchRef = useRef<HTMLInputElement>(null);
 
-	const [background, setBackground] = useState(
+	const [backgroundImage, setBackgroundImage] = useState(
 		'https://source.unsplash.com/random/1920x1080?iceland'
 	);
 	const [temperatureUnit, setTemperatureUnit] = useState<'C' | 'F'>('C');
 
 	useEffect(() => {
-		if (params.background) setBackground(params.background);
+		if (params.backgroundImage) setBackgroundImage(params.backgroundImage);
 		params.temperatureUnit == 'F'
 			? setTemperatureUnit('F')
 			: setTemperatureUnit('C');
-	}, [params.background, params.temperatureUnit]);
-
-	useEffect(() => {
-		if (background.includes('http')) {
-			setBackground(`url('${background}')`);
-		}
-	}, []);
+	}, [router.isReady]);
 
 	const bookmarks = [
 		{
@@ -86,7 +80,7 @@ export default function HomePage() {
 			</Head>
 			<div
 				className={`${plusJakartaSans.variable} bg-cover bg-center bg-no-repeat font-sans`}
-				style={{ background: background }}
+				style={{ backgroundImage: `url(${backgroundImage})` }}
 			>
 				<div className="backdrop-brightness-[15%]">
 					<main className="container flex h-screen flex-col items-center justify-center gap-8">
