@@ -1,4 +1,4 @@
-![new-tab](https://user-images.githubusercontent.com/38843229/216663120-9ae31c52-6759-46a2-8745-5f7a14899272.jpg)
+![new-tab](https://user-images.githubusercontent.com/38843229/216663374-d8ec6f25-1d49-4d9e-99ea-1706e427a586.jpg)
 
 ## Features
 
