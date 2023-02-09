@@ -36,10 +36,6 @@ export const searchEngines = [
         name: 'Heexy',
         queryUrl: 'https://search.heexy.org/search?q=',
     },
-    {
-        name: 'Seznam',
-        queryUrl: 'https://search.seznam.cz/?q=',
-    },
 ];
 
 export default function HomePage() {
