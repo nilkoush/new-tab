@@ -4,8 +4,7 @@ import SearchBarSettings from '@components/settings/SearchBarSettings';
 import TimeWidgetSettings from '@components/settings/TimeWidgetSettings';
 import WeatherWidgetSettings from '@components/settings/WeatherWidgetSettings';
 import { Dialog, Transition } from '@headlessui/react';
-import { SearchEngine } from '@pages/index';
-import { BookmarkType } from '@types';
+import { BookmarkType, SearchEngine } from '@types';
 import { Fragment, type FC } from 'react';
 import { IoSettingsOutline } from 'react-icons/io5';
 
