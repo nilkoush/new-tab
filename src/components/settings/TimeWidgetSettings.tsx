@@ -25,7 +25,7 @@ const TimeWidgetSettings: FC<TimeWidgetSettingsProps> = ({
                         checked={timeWidget}
                         onChange={setTimeWidget}
                     >
-                        <span className="sr-only">Use setting</span>
+                        <span className="sr-only">Toggle Time Widget</span>
                         <span
                             aria-hidden="true"
                             className={`${

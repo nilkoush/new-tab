@@ -45,7 +45,7 @@ const WeatherWidgetSettings: FC<WeatherWidgetSettingsProps> = ({
                         className="text-sm font-semibold text-gray-900"
                         htmlFor="temperatureUnit"
                     >
-                        Temperature Unit:
+                        Temperature Unit
                     </label>
                     <select
                         className="cursor-pointer rounded-lg bg-black/5 px-3 py-2 text-gray-700 outline-none transition-colors hover:bg-black/[0.075] hover:text-gray-900 focus:bg-black/[0.075]"
