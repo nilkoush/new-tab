@@ -7,6 +7,8 @@ type BackgroundProps = Readonly<{
     children?: ReactNode;
 }>;
 
+export const dynamic = true;
+
 export default function Background({ children }: BackgroundProps) {
     const [backgroundImage, setBackgroundImage] = useSettings(
         'background_image',
