@@ -1,0 +1,13 @@
+{
+    "name": "New Tab Extension",
+    "version": "1.0",
+    "description": "This extension will open a new tab when you click on the icon.",
+    "manifest_version": 3,
+    "author": "nilkoush",
+    "action": {},
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "permissions": ["tabs", "scripting"],
+    "host_permissions": ["http://*/*", "https://*/*"]
+}
