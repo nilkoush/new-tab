@@ -27,6 +27,7 @@ export default function Bookmark({
                 <a
                     className="flex flex-col content-start items-center gap-2 rounded-lg px-3 py-3 text-sm text-white shadow-sm transition-colors duration-200 hover:bg-[#3B3A43]"
                     href={url}
+                    target="_parent"
                 >
                     <Image
                         src={`https://www.vectorlogo.zone/logos/${icon}/${icon}-tile.svg`}

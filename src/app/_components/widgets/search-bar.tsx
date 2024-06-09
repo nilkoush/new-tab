@@ -1,6 +1,6 @@
 'use client';
 
-import { search } from '@/app/actions/search';
+import { search } from '@/actions/search';
 import { useEditMode } from '@/contexts/edit-mode-context';
 import { useSettings } from '@/hooks/use-settings';
 import { IoSearchOutline } from 'react-icons/io5';
